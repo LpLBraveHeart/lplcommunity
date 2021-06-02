@@ -12,5 +12,9 @@ public class IndexController {
         return "index";
     }
 
+    @GetMapping("/idnex")
+    public String abc(){
+        return "abc";
+    }
 
 }
