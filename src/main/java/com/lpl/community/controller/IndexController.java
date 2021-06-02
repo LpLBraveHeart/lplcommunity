@@ -14,7 +14,7 @@ public class IndexController {
 
     @GetMapping("/idnex")
     public String abc(){
-        return "abc";
+        return "abc33";
     }
 
 }
