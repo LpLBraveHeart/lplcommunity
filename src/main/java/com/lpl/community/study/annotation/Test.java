@@ -19,7 +19,7 @@ public class Test {
             Field field=clazz.getDeclaredField("userName");
             LplField lplField=field.getAnnotation(LplField.class);
             System.out.println(lplField.columnName() + "--" + lplField.type() + "--" + lplField.length());
-
+            //dddd
 
         }catch (Exception e){
             e.printStackTrace();
