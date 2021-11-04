@@ -12,6 +12,7 @@ public class Test {
             for (Annotation annotation:annotations){
                 System.out.println(annotation);
             }
+
             //获取类的指定的注解
             LplStudent lplStudent=(LplStudent) clazz.getAnnotation(LplStudent.class);
             System.out.println(lplStudent);
