@@ -21,7 +21,6 @@ public class Test {
             LplField lplField=field.getAnnotation(LplField.class);
             System.out.println(lplField.columnName() + "--" + lplField.type() + "--" + lplField.length());
             //dddd
-            // dss
 
         }catch (Exception e){
             e.printStackTrace();
