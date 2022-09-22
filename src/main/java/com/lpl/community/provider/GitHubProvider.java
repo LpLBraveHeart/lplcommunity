@@ -29,7 +29,7 @@ public class GitHubProvider {
             }
             return null;
     }
-//83b7b4a0a2250a7425006d10b39d9531d208e64e
+
     public GitHubUser getUser(String accessToken){
         OkHttpClient client=new OkHttpClient();
         Request request=new Request.Builder().url("https://api.github.com/user?access_token="+accessToken).build();
